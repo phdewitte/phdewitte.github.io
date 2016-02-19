@@ -1,0 +1,38 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title></title>
+</head>
+<body>
+  <header>
+    <h1>Patrick and Bill's Blog</h1>
+  </header>
+  <aside>
+    <button>Facebook</button>
+    <button>Twitter</button>
+    <button>Pinterest</button>
+  </aside>
+  <section>
+    <h2>This is the blog post title</h2>
+     <button>Previous</button>
+    <button>Main Page</button>
+    <button>Next</button>
+    <br>
+    <img src="#" alt="#">
+    <p>
+      This is the first paragraph
+    </p>
+    <p>
+      This is the second paragraph
+    </p>
+
+    <p>
+      This is the third paragraph
+    </p>
+    <img src="#" alt="#">
+  </section>
+  <hr>
+  <footer>Copyright stuff</footer>
+</body>
+
+</html>
