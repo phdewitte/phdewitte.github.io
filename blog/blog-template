@@ -1,3 +1,5 @@
+<!-- https://github.com/phdewitte/phdewitte.github.io/blob/master/imgs/wireframe-blogs.png -->
+
 <!DOCTYPE HTML>
 <html>
 <head>
@@ -36,3 +38,21 @@
 </body>
 
 </html>
+
+<!-- How was it to wireframe and create an HTML page with a pair?
+
+Being paired with someone who was more familiar with this week's lesson than I was very helpful. I've had a few late nights at work, and he was very helpful. I would imagine though that it might be fairly hard to pair with someone on some design based projects, unless the two people are very like minded.
+
+Did you find wireframing to be helpful to your development process?
+
+Yes, but I think I'll need to see more examples. As someone who isn't very visually artistic, it's hard looking at a blank screen and having to come up with an outline, even if it's a rudimentary one. It's strange that, even though I look at webpages all day, I don't exactly know where to start in deciding how to structure one.
+
+What did you and your pair decide made a good wireframe?
+
+We decided that it should focus on text, but be broken up with images so as not to seem like one big pile. The blogs I enjoy reading are well spaced out and info-heavy, but not overwhelmingly text heavy. Creating some space and some air make a blog more readable in my mind, though that was a little hard to convey in a wireframe.
+
+What new semantic elements did you learn about (if any)
+
+I was unfamiliar with the <hr> tag. I like separating different parts of text within a document, so I think this will come in handy.
+
+  -->
