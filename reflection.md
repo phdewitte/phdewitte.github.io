@@ -1,5 +1,5 @@
 http://phdewitte.github.io
-http://phdewitte.github.io/blog-template
+http://phdewitte.github.io/blog/blog-template
 
 What did you learn about CSS padding, borders, and margin by doing this challenge?
 
