@@ -1,0 +1,102 @@
+html {
+    height:100%;
+}
+
+body {
+  background-image: linear-gradient(150deg, #C9D0D6, #293744);
+  color: #0E1E2B;
+  font-family: 'Josefin Slab', serif;
+  font-weight:600;
+
+}
+
+a:visited {
+  color: #7692B3;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+header{
+  border: 2px solid black;
+  margin-left:10%;
+  margin-right:70%;
+  word-wrap: break-word;
+}
+
+header h1 {
+  padding-left: 10px;
+  margin-bottom:0px;
+}
+
+header h2 {
+  padding-left: 10px;
+  margin-top:5px;
+}
+
+nav {
+  position: relative;
+  width:30%;
+  left:35%;
+  right:35%;
+  margin-top:25px;
+  margin-bottom:25px;
+  border: 2px solid #C2C1B1;
+}
+
+nav li {
+  display: inline-block;
+  border: 1px solid black;
+  padding:10px;
+  margin-left:10px;
+  margin-right:10px;
+}
+
+#about-mini {
+  text-align: center;
+  font-style: italic;
+  font-size:18px;
+  margin-top:3em;
+  margin-bottom:3em;
+}
+
+.blog {
+  width: 75%;
+  margin-left:12.5%;
+  margin-right:12.5%;
+  text-align: center;
+}
+
+.mini-left {
+  text-decoration: underline;
+  text-align:left;
+  margin-right: 86%;
+  padding: 5px;
+}
+
+#more {
+  border: 1px solid black;
+  padding:8px;
+  float:right;
+  margin-top:1em;
+  margin-bottom:1em;
+}
+
+article {
+}
+
+footer {
+  margin:5em;
+  width: 75%;
+  margin-left:12.5%;
+  margin-right:12.5%;
+  text-align: center;
+}
+
+footer a {
+  display:inline-block;
+  padding-left:3em;
+  padding-bottom:1em;
+}
+
