@@ -1,5 +1,5 @@
 html {
-    height:100%;
+    min-height:100%;
 }
 
 body {
@@ -20,9 +20,10 @@ a:hover {
 
 header{
   border: 2px solid black;
-  margin-left:10%;
-  margin-right:70%;
+  margin-left:35%;
+  margin-right:35%;
   word-wrap: break-word;
+  text-align:center;
 }
 
 header h1 {
