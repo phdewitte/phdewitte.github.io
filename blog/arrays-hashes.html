@@ -1,0 +1,66 @@
+<!-- https://github.com/phdewitte/phdewitte.github.io/blob/master/imgs/wireframe-blogs-v2.png -->
+
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Patrick DeWitte - Web Development For The Music Industry</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:600,600italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header>
+    <h1>Patrick DeWitte</h1>
+    <h2>Music Industry Web Developer</h2>
+  </header>
+
+  <section class="post">
+    <h2>Arrays and Hashes - Container Objects Within Ruby</h2>
+    <br>
+    <p>
+      Recently in Dev Bootcamp's phase-0, we've been covering some basic Ruby material, including
+      container objects like Arrays and Hashes. Both allow you to store mulitple objects or pieces
+      of information. We'll take a look at the differences.
+    </p>
+    <p>
+      Arrays are the basic type of container object within Ruby. They allow you to store strings,
+      integers, floats, and other objects within Ruby. What makes arrays particularly useful is the
+      fact that whatever object you are storing within an array has an index number, or an nth position. This is particularly helpful if you need to select the 3rd, 83rd, or nth element within an array or arrays. The fact that every object has an index allows you to select individual or multiple elements from within the array to work with, without having to remove it from the array or treat it outside of the context of the array, unless you need to.
+    </p>
+
+    <p>
+      Hashes take containter objects a step further by allowing you to store relational objects together. Known as "Key/Value Pairs," you can store objects that relate to one another, that will stay linked within the hash. For example:
+    </br>
+    </br>
+
+      <script src="https://gist.github.com/phdewitte/49699b0a7370721439d2.js"></script>
+    </br>
+    </br>
+      Hashes offer a little more utility in that an object may have more meaning in relation to one or more other objects within the hash. Such is the nature of the Key/Value Pair. This becomes useful in the case that you need to reference a particular piece of information in relation to to what the hash object is storing. If you had a hash storing information about a particular song, you may have keys for "Title", "Band Name", "Songwriter", etc, and corresponding values of "Revolver", "The Beatles", "McCartney, Paul".
+    </p>
+
+    <p>
+      Both arrays and hashes give you the ability to iterate through them. Essentially, this allows you to look through the contents of each, and single out a particular object, multiple objects, or all objects within the array or hash. From there, Ruby offers many internal methods pertaining to the Array and Hash classes that allow for the manipulation of however many array or hash items you have iterated over.
+    </p>
+
+    <p>
+      In the coming weeks, I expect to be able to dive into and out of arrays and hashes and select, modify, add to, or remove particular objects. Arrays and hashes seem both somewhat elementary, yet extremely powerful within the Ruby language at the same time.
+
+  </section>
+
+   <nav>
+      <button>Previous</button>
+      <button>Blog Index</button>
+      <button>Next</button>
+   </nav>
+
+  <footer>
+    <p class="mini-left">Find me online...</p>
+    <a href="http://www.github.com/phdewitte">GitHub</a>
+    <a href="https://www.linkedin.com/in/patrickdewitte?trk=nav_responsive_tab_profile">Linkedin</a>
+    <a href="http://www.twitter.com/patrickhdewitte">Twitter</a>
+    <a href="http://www.facebook.com/patrickhdewitte">Facebook</a>
+  </footer>
+</body>
+
+</html>
