@@ -1,0 +1,53 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+  <title>Patrick DeWitte - Web Development For The Music Industry</title>
+  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+  <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:600,600italic' rel='stylesheet' type='text/css'>
+</head>
+<body>
+  <header>
+    <h1>Patrick DeWitte</h1>
+    <h2>Music Industry Web Developer</h2>
+  </header>
+
+  <section class="post">
+    <h2>Ruby Enumerable Methods - Map</h2>
+    <br>
+    <p>
+      In Ruby, we sometimes deal with collections of information. Often times, we're storing these collections in containter objects like arrays and hashes. Sometimes, we want to alter the information in the existing array, sometimes we want a new array containing the altered information. The Ruby enumerable .map method is a powerful method that returns a new object containing the result of the object that .map was called upon.
+    </p>
+    <p>
+      .map and .each are very similar, but serve two different purposes. Whereas .each returns its receiver, having not saved anything to the object it was called upon, .map takes the output of object.map and stores it in a new container object. Check it out...
+    </p>
+
+    <script src="https://gist.github.com/phdewitte/22ddaedc05ee43bc5d1e.js"></script>
+
+    <p>
+      Here map has allowed us to keep our original input (the name strings) intact, while giving us a new container object with the updated values after mapping each input with the code block. This is especially useful if you need to reference original vs updated values, or you don't wish to use any methods that would permanently alter your original values.
+    </p>
+
+    <p>
+      Whereas you would typically use .each in iterative situations, and theng write the bulk of the method after passing it to an object, map handles the iteration as well as an operation as specified within the code block that follows. Depending on your purposes, this could save you a few steps, as help to keep your code short sweet and to the point.
+    </p>
+
+  </section>
+
+   <nav>
+      <button>Previous</button>
+      <button>Blog Index</button>
+      <button>Next</button>
+   </nav>
+
+  <footer>
+    <p>Find me online</p>
+          <a href="http://www.github.com/phdewitte"><img src="../imgs/social-041-round_github.png"></a>
+    <a href="https://www.linkedin.com/in/patrickdewitte?trk=nav_responsive_tab_profile"><img src="../imgs/social-011-round_linkedin.png"></a>
+    <a href="http://www.twitter.com/patrickhdewitte"><img src="../imgs/social-003-round_twitter.png"</a>
+    <a href="http://www.facebook.com/patrickhdewitte"><img src="../imgs/social-006-round_facebook.png"</a>
+    <a href="mailto:patrickhdewitte@gmail.com"><img src="../imgs/social-009-round_google.png"</a>
+  </footer>
+</body>
+
+</html>
