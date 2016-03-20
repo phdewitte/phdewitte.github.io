@@ -4,10 +4,10 @@ html {
 
 body {
   background-image: linear-gradient(150deg, #C9D0D6, #293744);
+  /*background-color: #F4F8FF;*/
   color: #0E1E2B;
   font-family: 'Josefin Slab', serif;
   font-weight:600;
-
 }
 
 a:visited {
@@ -61,6 +61,16 @@ nav li {
   margin-bottom:3em;
 }
 
+.biography {
+  text-align: center;
+  width: 75%;
+  margin: 5% 12.5% 5% 12.5%;
+  font-size:20px
+}
+.biography span {
+  font-style: italic;
+}
+
 .blog {
   width: 75%;
   margin-left:12.5%;
@@ -88,8 +98,7 @@ nav li {
 footer {
   margin-top:5em;
   width: 50%;
-  margin-left:25%;
-  margin-right:25%;
+  margin: 5% 25% 3% 25%;
   text-align: center;
 }
 
