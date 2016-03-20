@@ -24,6 +24,23 @@ header{
   word-wrap: break-word;
 }
 
+nav {
+  position: relative;
+  width:30%;
+  left:35%;
+  right:35%;
+  margin-top:25px;
+  margin-bottom:25px;
+  border: 2px solid #C2C1B1;
+}
+
+nav li {
+  display: inline-block;
+  border: 1px solid black;
+  padding:8px;
+  margin-left:45px;
+}
+
 header h1 {
   padding-left: 10px;
   margin-bottom:0px;
@@ -33,6 +50,10 @@ header h1 {
 header h2 {
   padding-left: 10px;
   margin-top:5px;
+  text-align: center;
+}
+
+.index {
   text-align: center;
 }
 
@@ -49,18 +70,10 @@ section h2 {
   text-align:center;
 }
 
-nav {
-  position: relative;
-  width:50%;
-  text-align: center;
-  left:25%;
-  right:25%;
 
-}
-
-nav button {
+.blog-nav button {
   display: inline-block;
-  margin:10px;
+  margin:3% 10% 3% 10%;
 }
 
 
