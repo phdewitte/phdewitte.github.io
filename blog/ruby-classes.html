@@ -1,0 +1,82 @@
+<!-- https://github.com/phdewitte/phdewitte.github.io/blob/master/imgs/wireframe-blogs-v2.png -->
+
+<!DOCTYPE HTML>
+  <html>
+    <head>
+      <title>Patrick DeWitte - Web Development For The Music Industry</title>
+      <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+      <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+      <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:600,600italic' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+      <header>
+        <h1>Patrick DeWitte</h1>
+        <h2>Music Industry Web Developer</h2>
+      </header>
+
+    <nav>
+      <ul>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li><a href="/resume/">Resume</a></li>
+      </ul>
+    </nav>
+
+    <section class="post">
+      <h2>Ruby Classes</h2>
+      <br>
+
+      <p>
+        Our latest foray into Ruby territory leads us to classes. Classes allow you to create multiple objects that share the same or similar behaviors. Classes can, at their most basic, be thought of in terms of groupings of methods. Though they may take different input each time the class is called, the method grouping will allow for similar, or similarly-formatted outputs.
+      </p>
+
+      <script src="https://gist.github.com/phdewitte/bce7102baa028b96dea7.js"></script>
+
+      <p>
+        The Fonz banged on the jukebox... I don't even know how many times. If we want to know what song he caused to start playing on a given INSTANCE of a jukebox hit, we could use the above "Song" class and instance method "the_fonz" to print that information out, based on the instance variables "band" and "song". This example is about as brief as it is cheesy, but it gets the basic idea across.
+      </p>
+
+      <p>
+        Instance variables, like "band" and "song" above, are going to change relative to the instance in which they are used. We could have suggested any other band or song for our initial argument to the Song class, and whatever those would have been, would be stored in the instance variables @song and @band. We could have other instance variables like @time, @plays, or any other criteria you may associate with a jukebox, and these instance variables would all change depending on the instance of the class, and the arguments passed into them.
+      </p>
+
+      <p>
+        Again, one of the easiest ways to think of classes is to think of them as groupings of methods. More specifically, these methods would be referred to as instance methods, as they are acting within instances of a class. These instance methods can be used to store instance variable information, which changes based on the instance of a class. Some other examples of classes might include movie ticket information, with @movie_title, @running_time, or @theater_number. When it is similar sets of information that you need to store or retrieve, ruby Classes are the sorts of grouping and organization tool you will need.
+
+    </section>
+
+    <nav class="blog-nav">
+      <button>Previous</button>
+      <button>Blog Index</button>
+      <button>Next</button>
+    </nav>
+
+    <footer>
+      <p>Find me online</p>
+        <a href="http://www.github.com/phdewitte"><img src="../imgs/social-041-round_github.png"></a>
+        <a href="https://www.linkedin.com/in/patrickdewitte?trk=nav_responsive_tab_profile"><img src="../imgs/social-011-round_linkedin.png"></a>
+        <a href="http://www.twitter.com/patrickhdewitte"><img src="../imgs/social-003-round_twitter.png"</a>
+        <a href="http://www.facebook.com/patrickhdewitte"><img src="../imgs/social-006-round_facebook.png"</a>
+        <a href="mailto:patrickhdewitte@gmail.com"><img src="../imgs/social-009-round_google.png"</a>
+    </footer>
+  </body>
+
+</html>
+
+<!-- How was it to wireframe and create an HTML page with a pair?
+
+Being paired with someone who was more familiar with this week's lesson than I was very helpful. I've had a few late nights at work, and he was very helpful. I would imagine though that it might be fairly hard to pair with someone on some design based projects, unless the two people are very like minded.
+
+Did you find wireframing to be helpful to your development process?
+
+Yes, but I think I'll need to see more examples. As someone who isn't very visually artistic, it's hard looking at a blank screen and having to come up with an outline, even if it's a rudimentary one. It's strange that, even though I look at webpages all day, I don't exactly know where to start in deciding how to structure one.
+
+What did you and your pair decide made a good wireframe?
+
+We decided that it should focus on text, but be broken up with images so as not to seem like one big pile. The blogs I enjoy reading are well spaced out and info-heavy, but not overwhelmingly text heavy. Creating some space and some air make a blog more readable in my mind, though that was a little hard to convey in a wireframe.
+
+What new semantic elements did you learn about (if any)
+
+I was unfamiliar with the <hr> tag. I like separating different parts of text within a document, so I think this will come in handy.
+
+  -->
