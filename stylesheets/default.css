@@ -53,6 +53,32 @@ nav li {
   margin-left:45px;
 }
 
+.projects{
+  width: 75%;
+  margin-left:12.5%;
+  font-size: 20px;
+}
+
+.projects h1{
+  text-align: center;
+  font-size:48px;
+}
+
+.project-left {
+width: 60%;
+  margin: 0% 0% 2% 0%;
+}
+
+.project-right {
+width: 60%;
+text-align: right;
+margin: 0% 0% 5% 40%;
+}
+
+.project-right ul {
+  list-style-position: inside;
+}
+
 #about-mini {
   text-align: center;
   font-style: italic;
