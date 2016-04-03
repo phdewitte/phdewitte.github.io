@@ -1,0 +1,68 @@
+<!DOCTYPE HTML>
+  <html>
+    <head>
+      <title>Patrick DeWitte - Web Development For The Music Industry</title>
+      <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+      <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+      <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:600,600italic' rel='stylesheet' type='text/css'>
+    </head>
+    <body>
+      <header>
+        <h1>Patrick DeWitte</h1>
+        <h2>Music Industry Web Developer</h2>
+      </header>
+
+    <nav>
+      <ul>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/projects/">Projects</a></li>
+        <li><a href="/resume/">Resume</a></li>
+      </ul>
+    </nav>
+
+    <section class="post">
+      <h2>Test Driven Development</h2>
+      <br>
+      <p>
+        Many definitions for Test Driven Development exist across developer blogs and read something like this... "Test Driven Development is the process of developing software applications by writing tests before and during the course of developement, to ensure that source code is funcctional before it is complete." After reading up on the benefits and the reasoning behind TDD, I think of it a little more simply. TDD, in the opinion of this burgeoning developer, is a system of developing code according to expectation. That's probably over-simplifying, but here's my thinking...
+      </p>
+      <p>
+        So far at Dev Bootcamp, we've seen several examples of taking a program from the early steps of a development idea (a user story, for example) to pseudocode - an English, non-coding-language-specific description of how to write the code that will accomplish the task described in the user stories. From there (and we're assuming we don't already have test-code provided for us), it's a matter of writing code that will solve the problem. But this may be too hasty. What if in between the pseudocode and the initial solution, we had another way to break down the process for us into even smaller steps. What if we had a way to test our expectations of the code? Test Driven Development lets us do exactly that.
+      </p>
+      <p>
+        As a new developer, it's been easy to try every new method, syntactic pattern or trick I've learned in the hunt for a solution to a given problem. Before too long, I've got a whole solution that only half works. TDD is exactly what someone like me needs to reign it in. In TDD, you start with a test that states what you expect your program to do, little by little. Examples of this that we've seen so far would be "assert" in Javascript, "describe" and "expect" in Ruby, and others. What these built in methods of TDD allow us to do is state the expectation of a particular expression of code based on a supposed input, and allow us to shape our code based on the result of the test.
+      </p>
+      <p>
+        The process goes something like this...
+        <ul>
+          <li>Write a test that states what one portion of code should do</li>
+          <li>Run that test. It should fail, because you haven't written working code yet</li>
+          <li>Write the code that will make that test pass</li>
+          <li>Run the test</li>
+          <li>If it failed, fix it. Make the test pass before you write anymore code or tests</li>
+          <li>If it passed, clean it up - refactor it</li>
+          <li>After refactoring, if it still works, write your next test, and repeat the process</li>
+        </ul>
+
+        This is a very basic description, but what I think is most important about this entire philosophy of development is the fact that at every step along the way, you are making sure that you are implementing working code. Your time spent squishing bugs, troubleshooting, and banging your head against the wall after you've written a few hundred (or thousand) lines of code will be greatly minimized. Also, you're starting small, and taking small steps along the way. Most great challenges are accomplished not by shooting straight for the largest goal, but by accomplishing many smaller goals on the way to the larger one. It would seem to me that development is no different.
+      </p>
+
+    </section>
+
+    <nav class="blog-nav">
+      <button>Previous</button>
+      <button>Blog Index</button>
+      <button>Next</button>
+    </nav>
+
+    <footer>
+      <p>Find me online</p>
+        <a href="http://www.github.com/phdewitte"><img src="../imgs/social-041-round_github.png"></a>
+        <a href="https://www.linkedin.com/in/patrickdewitte?trk=nav_responsive_tab_profile"><img src="../imgs/social-011-round_linkedin.png"></a>
+        <a href="http://www.twitter.com/patrickhdewitte"><img src="../imgs/social-003-round_twitter.png"</a>
+        <a href="http://www.facebook.com/patrickhdewitte"><img src="../imgs/social-006-round_facebook.png"</a>
+        <a href="mailto:patrickhdewitte@gmail.com"><img src="../imgs/social-009-round_google.png"</a>
+    </footer>
+  </body>
+
+</html>
