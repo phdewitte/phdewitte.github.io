@@ -1,0 +1,28 @@
+.prettyprint {
+  background-color: white;
+  text-align: left;
+  font-size: 14px;
+
+}
+
+.left{
+  float: left;
+  width: 45%;
+}
+
+.left h1 {
+  font-size: 32px;
+}
+
+.right{
+  float: right;
+  width:45%;
+}
+
+.right h1 {
+  font-size: 32px;
+}
+
+footer {
+  clear:both;
+}
