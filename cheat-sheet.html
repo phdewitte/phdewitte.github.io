@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="stylesheets/cheat-sheet.css">
+    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:600,600italic' rel='stylesheet' type='text/css'>
+    <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
+    <title>Patrick DeWitte - Web Development For the Music Industry</title>
+  </head>
+  <body>
+    <header>
+      <h1>Patrick DeWitte</h1>
+      <h2>Music Technology Web Developer</h2>
+    </header>
+
+  <nav>
+    <ul>
+      <li><a href="/about.html">About</a></li>
+      <li><a href="/projects/">Projects</a></li>
+      <li><a href="/resume/">Resume</a></li>
+    </ul>
+  </nav>
+
+  <section class="projects">
+    <h1>Ruby Cheat Sheet</h1>
+
+  <div class ="left">
+    <h1>If/Else Statements</h2>
+    <pre class="prettyprint">
+      def mac_and_cheese(cheese_oz)
+        if cheese_oz < 8
+          puts "Yeah right, put more cheese in"
+        elsif cheese_oz < 12
+          puts "It's almost cheesy enough"
+        else
+          puts "You're on the way to cheese heaven"
+        end
+      end
+    </pre>
+    <p>
+    Basic conditional statement that excutes a given expression based on input passed to the containing method.
+    </p>
+
+    <h1>While Loops</h1>
+    <pre class="prettyprint">
+      n = 1
+      while n < 10
+        puts n
+        n += 1
+      end
+    </pre>
+    <p>
+      While a given condition is true, the block within the statement will continue to loop
+
+  <h1> REMEMBER!</h1>
+    <p>
+      When comparing multiple pieces of information within a container object, use a placeholder to store a default value. You need something outside of the container to compare the contents against!
+    </p>
+
+  </div>
+
+  <div class ="right">
+    <h1>Case Statements</h1>
+    <pre class="prettyprint">
+      Case cheese
+        when "roquefort"
+          puts "Salty funky goodness"
+        when "camembert"
+          puts "Ah yes, refined sweaty-sock essence"
+        when "triple-creme"
+          puts "Brie who?"
+        end
+    </pre>
+    <p>
+      Conditional method when one of several possible arguments is expected. Operators used in if/else statements also apply here.
+    </p>
+
+    <h1>Until Loops</h1>
+    <pre class="prettyprint">
+      n = 1
+      until n > 10
+        puts n
+        n += 1
+      end
+    </pre>
+    <p>
+      Until a given condition is met, the code within the loop will execute
+    <p>
+
+    <h1>.each & .map</h1>
+    <pre class="prettyprint">
+      array.each {|i| #do something to each index}
+    </pre>
+    <p>
+      The return value of .each is the receiver. In this case, an array called "array". .each does NOT create a new object.
+    </p>
+    <pre class="prettyprint">
+      new_array = array.map {|i| #do something to each index}
+    </pre>
+    <p>
+      Unlike .each, .map returns a NEW ARRAY. If you need to store the results, set a new object equal to array.map.
+    </p>
+
+  </div>
+
+  </section>
+
+  <footer>
+    <p>Find me online</p>
+    <a href="http://www.github.com/phdewitte"><img src="imgs/social-041-round_github.png"></a>
+    <a href="https://www.linkedin.com/in/patrickdewitte?trk=nav_responsive_tab_profile"><img src="imgs/social-011-round_linkedin.png"></a>
+    <a href="http://www.twitter.com/patrickhdewitte"><img src="imgs/social-003-round_twitter.png"</a>
+    <a href="http://www.facebook.com/patrickhdewitte"><img src="imgs/social-006-round_facebook.png"</a>
+    <a href="mailto:patrickhdewitte@gmail.com"><img src="imgs/social-009-round_google.png"</a>
+  </footer>
+
+  </body>
+</html>
