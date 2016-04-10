@@ -2,25 +2,25 @@
 
 <!DOCTYPE HTML>
 <html>
-<head>
-  <title>Patrick DeWitte - Web Development For The Music Industry</title>
-  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
-  <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:600,600italic' rel='stylesheet' type='text/css'>
-</head>
-<body>
-  <header>
-    <h1>Patrick DeWitte</h1>
-    <h2>Music Industry Web Developer</h2>
-  </header>
-
-<nav>
-    <ul>
+  <head>
+    <title>Patrick DeWitte - Web Development For The Music Industry</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header>
+      <h1>Patrick DeWitte</h1>
+      <h2>Music Industry Web Developer</h2>
+    <ul class="nav">
       <li><a href="/about.html">About</a></li>
       <li><a href="/projects/">Projects</a></li>
+      <li><a href="/blog/index.html">Blog</a></li>
       <li><a href="/resume/">Resume</a></li>
     </ul>
-  </nav>
+    </header>
+
+  <hr>
 
   <section class="post">
     <h2>Arrays and Hashes - Container Objects Within Ruby</h2>
@@ -35,15 +35,12 @@
       integers, floats, and other objects within Ruby. What makes arrays particularly useful is the
       fact that whatever object you are storing within an array has an index number, or an nth position. This is particularly helpful if you need to select the 3rd, 83rd, or nth element within an array or arrays. The fact that every object has an index allows you to select individual or multiple elements from within the array to work with, without having to remove it from the array or treat it outside of the context of the array, unless you need to.
     </p>
-
     <p>
       Hashes take containter objects a step further by allowing you to store relational objects together. Known as "Key/Value Pairs," you can store objects that relate to one another, that will stay linked within the hash. For example:
-    </br>
-    </br>
+
 
       <script src="https://gist.github.com/phdewitte/49699b0a7370721439d2.js"></script>
-    </br>
-    </br>
+
       Hashes offer a little more utility in that an object may have more meaning in relation to one or more other objects within the hash. Such is the nature of the Key/Value Pair. This becomes useful in the case that you need to reference a particular piece of information in relation to to what the hash object is storing. If you had a hash storing information about a particular song, you may have keys for "Title", "Band Name", "Songwriter", etc, and corresponding values of "Revolver", "The Beatles", "McCartney, Paul".
     </p>
 
@@ -56,19 +53,13 @@
 
   </section>
 
-  <nav class="blog-nav">
-      <button>Previous</button>
-      <button>Blog Index</button>
-      <button>Next</button>
-   </nav>
-
   <footer>
     <p>Find me online</p>
-    <a href="http://www.github.com/phdewitte"><img src="../imgs/social-041-round_github.png"></a>
-    <a href="https://www.linkedin.com/in/patrickdewitte?trk=nav_responsive_tab_profile"><img src="../imgs/social-011-round_linkedin.png"></a>
-    <a href="http://www.twitter.com/patrickhdewitte"><img src="../imgs/social-003-round_twitter.png"</a>
-    <a href="http://www.facebook.com/patrickhdewitte"><img src="../imgs/social-006-round_facebook.png"</a>
-    <a href="mailto:patrickhdewitte@gmail.com"><img src="../imgs/social-009-round_google.png"</a>
+    <a href="https://www.linkedin.com/in/patrickdewitte?trk=nav_responsive_tab_profile"><img src="../imgs/social-011-round_linkedin.png" alt="Linkedin"></a>
+    <a href="http://www.github.com/phdewitte"><img src="../imgs/social-041-round_github.png" alt="Github"></a>
+    <a href="http://www.twitter.com/patrickhdewitte"><img src="../imgs/social-003-round_twitter.png" alt="Twitter"></a>
+    <a href="http://www.facebook.com/patrickhdewitte"><img src="../imgs/social-006-round_facebook.png" alt= "Facbook"></a>
+    <a href="mailto:patrickhdewitte@gmail.com"><img src="../imgs/social-009-round_google.png" alt="Gmail"></a>
   </footer>
 </body>
 

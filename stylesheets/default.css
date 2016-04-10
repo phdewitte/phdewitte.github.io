@@ -1,137 +1,95 @@
-html {
-    min-height:100%;
+body {
+  font-family: 'Playfair Display', serif;
+  font-weight:400;
 }
 
-body {
-  background-image: linear-gradient(150deg, #C9D0D6, #293744);
-  /*background-color: #F4F8FF;*/
-  color: #0E1E2B;
-  font-family: 'Josefin Slab', serif;
-  font-weight:600;
+a {
+  color: blue;
 }
 
 a:visited {
-  color: #7692B3;
+  text-decoration:none;
+  color: #151B26;
 }
 
 a:hover {
   text-decoration: none;
+  color: #151B26;
 }
 
 header{
-  border: 2px solid black;
-  margin-left:35%;
-  margin-right:35%;
-  word-wrap: break-word;
-  text-align:center;
+  display: inline-block;
+  margin: 0% 0% 0% 0%;
+  width:100%;
 }
 
 header h1 {
-  padding-left: 10px;
-  margin-bottom:0px;
+  font-size: 3em;
+  display: inline-block;
+  margin: 0% 0% 0% 2%;
 }
 
 header h2 {
-  padding-left: 10px;
-  margin-top:5px;
-}
-
-nav {
-  position: relative;
-  width:30%;
-  left:35%;
-  right:35%;
-  margin-top:25px;
-  margin-bottom:25px;
-  border: 2px solid #C2C1B1;
-}
-
-nav li {
   display: inline-block;
-  border: 1px solid black;
-  padding:8px;
-  margin-left:45px;
+  padding: 0% 0% 0% 1%;
+  font-style:italic;
 }
 
-.projects{
-  width: 75%;
-  margin-left:12.5%;
-  font-size: 20px;
+.nav {
+  margin: 0% 0% 0% 23%;
 }
 
-.projects h1{
-  text-align: center;
-  font-size:40px;
+header ul{
+  display: inline;
 }
 
-.project-left {
-  width: 60%;
-  margin: 0% 0% 2% 0%;
+header li {
+  display: inline-block;
+  font-size: 26px;
+  padding: 8px;
+  color: #151B26;
 }
 
-.project-right {
-  width: 60%;
-  text-align: right;
-  margin: 0% 0% 5% 40%;
+hr {
+  border: 1px solid;
 }
 
-.project-right ul {
-  list-style-position: inside;
+img {
+  margin: 1% 20% 0% 20%;
 }
 
-#about-mini {
+#about {
   text-align: center;
   font-style: italic;
   font-size:18px;
-  margin-top:3em;
-  margin-bottom:3em;
+  margin:1em 0em 2em 0em;
 }
 
 .biography {
   text-align: center;
   width: 75%;
-  margin: 5% 12.5% 5% 12.5%;
+  margin: 0% 12.5% 5% 12.5%;
   font-size:20px
 }
+
+.biography h2 {
+  font-size: 36px;
+}
+
 .biography span {
   font-style: italic;
 }
 
-.blog {
-  width: 75%;
-  margin-left:12.5%;
-  margin-right:12.5%;
-  text-align: center;
-}
-
-.mini-left {
-  text-decoration: underline;
-  font-size: 20px;
-  text-align:left;
-  margin-right: 80%;
-  padding: 5px;
-}
-
-#more {
-  border: 1px solid black;
-  padding:8px;
-  float:right;
-  margin-top:1em;
-  margin-bottom:1em;
-}
-
-
 footer {
-  margin-top:5em;
+  margin-top:1em;
   width: 50%;
-  margin: 5% 25% 3% 25%;
+  margin: 0% 25% 3% 25%;
   text-align: center;
 }
 
 footer a {
-  margin:10px 20px 0px 20px;
+  display: inline-block;
   padding: 1em;
-
 }
 
 footer p {

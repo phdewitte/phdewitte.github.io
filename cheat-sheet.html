@@ -3,7 +3,7 @@
   <head>
     <link rel="stylesheet" type="text/css" href="stylesheets/default.css">
     <link rel="stylesheet" type="text/css" href="stylesheets/cheat-sheet.css">
-    <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:600,600italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
     <script src="https://cdn.rawgit.com/google/code-prettify/master/loader/run_prettify.js"></script>
     <title>Patrick DeWitte - Web Development For the Music Industry</title>
   </head>
@@ -11,21 +11,21 @@
     <header>
       <h1>Patrick DeWitte</h1>
       <h2>Music Technology Web Developer</h2>
-    </header>
-
-  <nav>
-    <ul>
+    <ul class="nav">
       <li><a href="/about.html">About</a></li>
       <li><a href="/projects/">Projects</a></li>
+      <li><a href="/blog/index.html">Blog</a></li>
       <li><a href="/resume/">Resume</a></li>
     </ul>
-  </nav>
+    </header>
 
-  <section class="projects">
+  <hr>
+
+  <section class="main">
     <h1>Ruby Cheat Sheet</h1>
 
   <div class ="left">
-    <h1>If/Else Statements</h2>
+    <h2>If/Else Statements</h2>
     <pre class="prettyprint">
       def mac_and_cheese(cheese_oz)
         if cheese_oz < 8
@@ -41,7 +41,7 @@
     Basic conditional statement that excutes a given expression based on input passed to the containing method.
     </p>
 
-    <h1>While Loops</h1>
+    <h2>While Loops</h2>
     <pre class="prettyprint">
       n = 1
       while n < 10
@@ -52,15 +52,14 @@
     <p>
       While a given condition is true, the block within the statement will continue to loop
 
-  <h1> REMEMBER!</h1>
+  <h2> REMEMBER!</h2>
     <p>
       When comparing multiple pieces of information within a container object, use a placeholder to store a default value. You need something outside of the container to compare the contents against!
     </p>
-
   </div>
 
   <div class ="right">
-    <h1>Case Statements</h1>
+    <h2>Case Statements</h2>
     <pre class="prettyprint">
       Case cheese
         when "roquefort"
@@ -75,7 +74,7 @@
       Conditional method when one of several possible arguments is expected. Operators used in if/else statements also apply here.
     </p>
 
-    <h1>Until Loops</h1>
+    <h2>Until Loops</h2>
     <pre class="prettyprint">
       n = 1
       until n > 10
@@ -87,7 +86,7 @@
       Until a given condition is met, the code within the loop will execute
     <p>
 
-    <h1>.each & .map</h1>
+    <h2>.each & .map</h2>
     <pre class="prettyprint">
       array.each {|i| #do something to each index}
     </pre>
@@ -107,11 +106,11 @@
 
   <footer>
     <p>Find me online</p>
-    <a href="http://www.github.com/phdewitte"><img src="imgs/social-041-round_github.png"></a>
-    <a href="https://www.linkedin.com/in/patrickdewitte?trk=nav_responsive_tab_profile"><img src="imgs/social-011-round_linkedin.png"></a>
-    <a href="http://www.twitter.com/patrickhdewitte"><img src="imgs/social-003-round_twitter.png"</a>
-    <a href="http://www.facebook.com/patrickhdewitte"><img src="imgs/social-006-round_facebook.png"</a>
-    <a href="mailto:patrickhdewitte@gmail.com"><img src="imgs/social-009-round_google.png"</a>
+    <a href="https://www.linkedin.com/in/patrickdewitte?trk=nav_responsive_tab_profile"><img src="imgs/social-011-round_linkedin.png" alt="Linkedin"></a>
+    <a href="http://www.github.com/phdewitte"><img src="imgs/social-041-round_github.png" alt="Github"></a>
+    <a href="http://www.twitter.com/patrickhdewitte"><img src="imgs/social-003-round_twitter.png" alt="Twitter"></a>
+    <a href="http://www.facebook.com/patrickhdewitte"><img src="imgs/social-006-round_facebook.png" alt= "Facbook"></a>
+    <a href="mailto:patrickhdewitte@gmail.com"><img src="imgs/social-009-round_google.png" alt="Gmail"></a>
   </footer>
 
   </body>
