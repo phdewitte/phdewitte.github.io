@@ -1,11 +1,6 @@
-html {
-  min-height:100%;
-}
-
 body {
-  background-image: linear-gradient(150deg, #C9D0D6, #293744);
   color: #0E1E2B;
-  font-family: 'Josefin Slab', serif;
+  font-family: 'Playfair Display', serif;
   font-weight:600;
 }
 
@@ -17,65 +12,40 @@ a:hover {
   text-decoration: none;
 }
 
-header{
-  border: 2px solid black;
-  margin-left:35%;
-  margin-right:35%;
-  word-wrap: break-word;
-}
-
-nav {
-  position: relative;
-  width:30%;
-  left:35%;
-  right:35%;
-  margin-top:25px;
-  margin-bottom:25px;
-  border: 2px solid #C2C1B1;
-}
-
-nav li {
-  display: inline-block;
-  border: 1px solid black;
-  padding:8px;
-  margin-left:45px;
-}
-
-header h1 {
-  padding-left: 10px;
-  margin-bottom:0px;
-  text-align: center;
-}
-
-header h2 {
-  padding-left: 10px;
-  margin-top:5px;
-  text-align: center;
-}
-
 .index {
   text-align: center;
 }
 
-.post {
-  text-align: left;
-  margin-top:50px;
-  margin-bottom:10px;
-  padding-bottom:10px;
-  margin-left:25%;
-  margin-right:25%;
+.index h2 {
+  font-size: 36px;
 }
 
+section > h3 {
+  margin-bottom: 3em;
+}
+
+img {
+  margin: auto;
+}
+
+.post {
+  text-align: left;
+  font-size: 18px;
+  margin:50px 25% 10px 25%;
+  padding-bottom:10px;
+}
+
+.post h2 {
+  font-size: 36px;
+}
 section h2 {
   text-align:center;
 }
-
 
 .blog-nav button {
   display: inline-block;
   margin:3% 10% 3% 10%;
 }
-
 
 footer p {
   font-size:24px;

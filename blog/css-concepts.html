@@ -2,26 +2,25 @@
 
 <!DOCTYPE HTML>
 <html>
-<head>
-  <title>Patrick DeWitte - Web Development For The Music Industry</title>
-  <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
-  <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
-  <link href='https://fonts.googleapis.com/css?family=Josefin+Slab:600,600italic' rel='stylesheet' type='text/css'>
-
-</head>
-<body>
-  <header>
-    <h1>Patrick DeWitte</h1>
-    <h2>Music Industry Web Developer</h2>
-  </header>
-
-<nav>
-    <ul>
+  <head>
+    <title>Patrick DeWitte - Web Development For The Music Industry</title>
+    <link rel="stylesheet" type="text/css" href="../stylesheets/default.css">
+    <link rel="stylesheet" type="text/css" href="../stylesheets/blog.css">
+    <link href='https://fonts.googleapis.com/css?family=Playfair+Display' rel='stylesheet' type='text/css'>
+  </head>
+  <body>
+    <header>
+      <h1>Patrick DeWitte</h1>
+      <h2>Music Industry Web Developer</h2>
+    <ul class="nav">
       <li><a href="/about.html">About</a></li>
       <li><a href="/projects/">Projects</a></li>
+      <li><a href="/blog/index.html">Blog</a></li>
       <li><a href="/resume/">Resume</a></li>
     </ul>
-  </nav>
+    </header>
+
+  <hr>
 
   <section class="post">
     <h2>CSS Concepts - Positioning</h2>
@@ -37,29 +36,22 @@
     The other two are a little more tricky. Relative positioning looks at where the element would be placed by default due to the order of the html. So if an element normally ends up halfway down a page underneath the preceding HTML section, changes in positioning are relative to where it would have otherwise been placed by default. CSS changes for an element with Absolute positioning, somewhat similarly, makes changes relative to another section. However, instead of the changes being relative to its otherwise static alternative, Absolute positioning makes the changes relative to the last positioned parent element. Or, relative to the preceding element that was not designated as static that it is nested within.
     </p>
 
-    <img src="../imgs/css-blog-example.png">
+    <img src="../imgs/css-blog-example.png" alt="CSS Example">
 
     <p>Check out this image for examples. Divs 1-4 are positioned as static, relative, absolute, and fixed respectively. Div 1 (static) has a margin-bottom of 200px, which is what has placed Div 2 (relative) at its lower position on the screen. If Div 2 were static, it would simply be snapped to the left side of the screen, and still follow Div 1's margin-bottom rule. But since it is relative, we are allowed to use offsets like top, right, left, and bottom to position it specifically. Div 3 (absolute) has no parent with an explicity stated position, so it's default position would be the top left of the screen. Offets top and left have placed it in its particular position. IF Div 1 were anything other than static, Div 2's position would change relative to Div 1. Div 4 (fixed) is placed with the top and left offsets, and would stay locked to the browser window if you were to scroll.
     </p>
 
     <p>With responsive web becoming (being?) the standard for new website development, it's important to understand the relationship between different parts of the site, and how they will interact across different platforms. I'm hoping to hack my way through some positioning exercises to really understand how best to makes these positioning relationships work best for me and the sites I develop.
     </p>
-
   </section>
-
-   <nav>
-      <button>Previous</button>
-      <button>Blog Index</button>
-      <button>Next</button>
-   </nav>
 
   <footer>
     <p>Find me online</p>
-    <a href="http://www.github.com/phdewitte"><img src="../imgs/social-041-round_github.png"></a>
-    <a href="https://www.linkedin.com/in/patrickdewitte?trk=nav_responsive_tab_profile"><img src="../imgs/social-011-round_linkedin.png"></a>
-    <a href="http://www.twitter.com/patrickhdewitte"><img src="../imgs/social-003-round_twitter.png"</a>
-    <a href="http://www.facebook.com/patrickhdewitte"><img src="../imgs/social-006-round_facebook.png"</a>
-    <a href="mailto:patrickhdewitte@gmail.com"><img src="../imgs/social-009-round_google.png"</a>
+    <a href="https://www.linkedin.com/in/patrickdewitte?trk=nav_responsive_tab_profile"><img src="../imgs/social-011-round_linkedin.png" alt="Linkedin"></a>
+    <a href="http://www.github.com/phdewitte"><img src="../imgs/social-041-round_github.png" alt="Github"></a>
+    <a href="http://www.twitter.com/patrickhdewitte"><img src="../imgs/social-003-round_twitter.png" alt="Twitter"></a>
+    <a href="http://www.facebook.com/patrickhdewitte"><img src="../imgs/social-006-round_facebook.png" alt= "Facbook"></a>
+    <a href="mailto:patrickhdewitte@gmail.com"><img src="../imgs/social-009-round_google.png" alt="Gmail"></a>
   </footer>
 </body>
 

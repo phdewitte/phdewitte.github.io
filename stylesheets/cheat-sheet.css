@@ -1,8 +1,22 @@
+body {
+  font-family: 'Playfair Display', serif;
+}
+
 .prettyprint {
   background-color: white;
   text-align: left;
   font-size: 14px;
+}
 
+.main {
+  width: 75%;
+  margin-left:12.5%;
+  font-size: 20px;
+}
+
+.main h1 {
+  text-align: center;
+  font-size: 36px;
 }
 
 .left{
@@ -10,8 +24,9 @@
   width: 45%;
 }
 
-.left h1 {
+.left h2 {
   font-size: 32px;
+  text-align: center;
 }
 
 .right{
@@ -19,8 +34,9 @@
   width:45%;
 }
 
-.right h1 {
+.right h2 {
   font-size: 32px;
+  text-align: center;
 }
 
 footer {
